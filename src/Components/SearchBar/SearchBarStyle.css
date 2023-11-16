@@ -1,0 +1,132 @@
+.search{
+    /* margin-top: -30px; */
+    /* position: fixed; */
+    /* margin-left: -360px; */
+    z-index: 1; 
+    /* This overlay appears above other elements */
+    /* font-family: 'Montserrat', sans-serif; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+/* .search-button {
+    border-radius: 0 10px 10px 0; */
+     /* top-right and bottom-right corners rounded */
+  /* } */
+  
+
+.searchresults{
+
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply a blur effect to create a frosted glass effect */
+
+
+    margin-top: 35px;
+    height: 250px;
+    /* background-color: beige;  */
+    /* Transparent black */
+    /* border-radius: 15px; */
+    color: black;
+    overflow: hidden;
+    overflow-y: auto;
+    /* box-shadow: slategrey ; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow properties */
+    text-align: left;
+    border-radius: 10px;
+    /* border-bottom-left-radius: 10px; */
+    /* position: fixed; */
+    width: 300px;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    /* font-family: 'Avenir Next', sans-serif; */
+    /* font-family: 'Inconsolata', monospace; */
+    /* font-family: 'Fira Code', monospace; */
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Crimson Text', serif; */
+
+    /* font-family: 'Georgia', serif; */
+
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Helvetica Neue', sans-serif; */
+    /* font-family: 'Myriad Pro', sans-serif; */
+    /* font-family: 'Consolas', monospace; */
+    /* font-family: 'Lucida Console', monospace; */
+    /* font-family: 'Roboto', sans-serif; */
+
+
+}
+.search-button{
+
+    background-color: #D10024;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 50px;
+    font-weight: 600;
+    font-size:medium;
+    /* font-family: ; */
+
+    width: 90px;
+    color: aliceblue;
+        /* display: flex; */
+}
+
+.searchresults::-webkit-scrollbar{
+    display: none;
+}
+.dataItem{
+
+    margin-left: 5px ;
+    /* background-color: rgb(255, 255, 8); */
+    /* padding: ; */
+    /* height: 30px; */
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.dataItem:hover{
+
+    /* background-color: rgb(211, 211, 189); */
+    /* height: 30px; */
+}
+
+
+
+
+.searchbar {
+    border-radius: 25px;
+    width: 600px;
+    /* padding: 5px; */
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    /* position: fixed; */
+    /* border-color: black; */
+    align-items: center;
+
+
+}
+
+.searchbar input {
+
+    border-style: none;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+
+
+    /* background-color:black ; */
+}
+
+.searchbar input:focus, textarea:focus, select:focus{
+    outline: none;
+}

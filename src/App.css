@@ -1,5 +1,13 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 .App {
   text-align: center;
+  flex-direction: column;
+  display: flex; 
+
 }
 
 .App-logo {
